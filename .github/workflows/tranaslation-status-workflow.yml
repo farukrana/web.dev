@@ -25,5 +25,5 @@ jobs:
           format: 'json'
 
       - name: translated
-        run: npm run translated -- files:${{ steps.files.outputs.added_modified }}
+        run: npm run translated -- "${{ steps.files.outputs.added_modified }}"
 

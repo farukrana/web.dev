@@ -7,10 +7,20 @@
  *
  */
 
+function isTranslatedFile(fileName) {
+  return
+}
+
 const run = async () => {
   console.log('omg im running');
-  console.log('process.argv', process.argv);
-  console.log('files', process.argv.files);
+  console.log('process.argv', process.argv.slice(2)[0]);
+
+  // console.log('files', argv.files);
+  // console.log('typeof', typeof argv.files);
+
+  // const translatedfiles = process.argv.files.filter(isTranslatedFile);
+  // console.log('files', process.argv.files);
+
 };
 
 run();
