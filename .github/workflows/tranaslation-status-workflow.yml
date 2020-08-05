@@ -25,6 +25,6 @@ jobs:
           format: 'json'
 
       - name: translated
-        run: echo ${{steps.files.outputs.all}}
+        run: echo ${{files.outputs.all}}
 
 
