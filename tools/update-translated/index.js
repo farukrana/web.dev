@@ -13,10 +13,11 @@
 
 const run = async () => {
   console.log('omg im running');
-  console.log('process.argv', process.argv.slice(2)[0]);
+  console.log('process.argv', process.argv;
+  console.log('process.argv0', process.argv.slice(2)[0]);
 
   // console.log('files', argv.files);
-  // console.log('typeof', typeof argv.files);
+  console.log('typeof', typeof process.argv.slice(2)[0]);
 
   // const translatedfiles = process.argv.files.filter(isTranslatedFile);
   // console.log('files', process.argv.files);
