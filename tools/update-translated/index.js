@@ -13,7 +13,7 @@
 
 const run = async () => {
   console.log('omg im running');
-  console.log('process.argv', process.argv;
+  console.log('process.argv', process.argv);
   console.log('process.argv0', process.argv.slice(2)[0]);
 
   // console.log('files', argv.files);
