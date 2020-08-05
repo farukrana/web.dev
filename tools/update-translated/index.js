@@ -20,7 +20,6 @@ const run = async () => {
 
   // const translatedfiles = process.argv.files.filter(isTranslatedFile);
   // console.log('files', process.argv.files);
-
 };
 
 run();
