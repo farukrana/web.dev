@@ -7,9 +7,9 @@
  *
  */
 
-function isTranslatedFile(fileName) {
-  return
-}
+// function isTranslatedFile(fileName) {
+//   return
+// }
 
 const run = async () => {
   console.log('omg im running');
