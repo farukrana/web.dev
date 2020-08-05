@@ -1,0 +1,25 @@
+name: Translation status
+on:
+  push:
+    branches:
+      - i18n-gitlocalize
+
+jobs:
+  translation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+
+      - name: Install
+        run: npm ci
+
+      - name: Translated
+        run: npm run translated
+
+
