@@ -9,6 +9,7 @@
 
 const run = async () => {
   console.log('omg im running');
+  console.log('process.argv', process.argv);
 };
 
 run();
