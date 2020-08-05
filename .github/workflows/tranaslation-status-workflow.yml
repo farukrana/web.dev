@@ -25,5 +25,6 @@ jobs:
           format: 'json'
 
       - name: translated
-        run: npm run translated -- "${{ steps.files.outputs.all }}"
+        run: echo ${{steps.files.outputs.all}}
+
 
