@@ -16,8 +16,8 @@ jobs:
         with:
           node-version: '12.x'
 
-      - name: Install
-        run: npm ci
+      # - name: Install
+      #   run: npm ci
 
       - name: files
         uses: jitterbit/get-changed-files@v1
@@ -25,6 +25,6 @@ jobs:
           format: 'json'
 
       - name: translated
-        run: echo "files: ${{ files.outputs.all }}"
+        run: echo 'files ${{ files.outputs.all }}''
 
 
