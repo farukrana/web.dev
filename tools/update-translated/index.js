@@ -10,6 +10,7 @@
 const run = async () => {
   console.log('omg im running');
   console.log('process.argv', process.argv);
+  console.log('files', process.argv.files);
 };
 
 run();
