@@ -25,6 +25,6 @@ jobs:
           format: 'json'
 
       - name: translated
-        run: echo 'files ${{ steps.files.outputs.all }}''
+        run: echo "The time was ${{ steps.files.outputs.all }}"
 
 
